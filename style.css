@@ -38,7 +38,7 @@ a {
     margin: 0 5px;
     overflow: hidden;
     background: #fff;
-    border-radius: 16px; /* Reduzido para metade da altura para bordas arredondadas */
+    border-radius: 16px;
     cursor: pointer;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
@@ -46,7 +46,6 @@ a {
 
 .box .btn:hover {
     width: 200px;
-    border-radius: 16px; /* Manter as bordas arredondadas ao alterar a largura */
 }
 
 .box .btn .icon {
